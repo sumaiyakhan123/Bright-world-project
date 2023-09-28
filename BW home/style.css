@@ -1,0 +1,372 @@
+body{
+    margin: 0%;
+    padding: 0%;
+        background-image:linear-gradient(to right,rgb(1, 109, 233),rgb(150, 214, 240));
+        /* background: linear-gradient(111.5deg, rgb(187, 232, 255) 11.1%, rgb(4, 78, 116) 107.5%); */
+        /* background: linear-gradient(to right,rgb(55, 209, 255), rgb(14, 31, 111)); */
+        color: #f1f1f1;
+       font-family: myfont;
+}
+@font-face {
+    font-family:myfont2;
+    src: url(Kanit-BlackItalic.ttf);
+}
+@font-face {
+    font-family:myfont;
+    src: url(Kanit-LightItalic.ttf);
+}
+h1,h2,h5{
+    font-family: myfont2;
+}
+.navbar li{
+    padding-left: 80px;
+}
+.navbar{
+    color: transparent;
+    box-shadow: 10px 10px 20px rgb(141, 141, 141);
+    background-color:rgb(255, 255, 255);
+
+}
+/* .nav-item li{
+    padding-left: 10px;
+   
+} */
+.nav-item li a{
+    font-weight: bold;
+}
+#top{
+    position: sticky;
+    top: 0%;
+   z-index: 1;
+}
+.dropbtn {
+  background-color:rgb(255, 255, 255);
+   font-weight: bold;
+    padding: 8px 0px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(17, 17, 17);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:rgb(88, 87, 87);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:rgb(255, 255, 255);}
+/* nav end=================================== */
+
+.carousel-item img {
+    height: 85vh; 
+}
+.carousel-item::before{
+    background: rgba(0, 0, 0, 0.397);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+  
+}
+.carousel-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: #f1f1f1;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    color: #f1f1f1;
+    /* font-family:myfont,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  */
+}
+.carousel-caption p{
+    color: #f1f1f1;
+}
+
+
+
+/* main carousel banner ============================================= */
+
+
+.product-heading{
+    background-image:linear-gradient(to right,rgb(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/header.jpg);
+    background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+    width: 100%;
+    height: auto;
+  
+}
+.product-heading div{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+/*headings ========================================================= */
+
+.slideshow-container {
+    position: relative;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.651),rgba(7, 7, 7, 0.623)); */
+    background-color:white;
+    padding: 3%;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  .mySlides img{
+    width: 5%;
+    border-radius: 30px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #817b7b;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      /* background-color: transparent; */
+      background-color: white;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+.dot:hover {
+    background-color: #717171;
+  }
+/* client review ======================================================= */
+.map{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Map================================================= */
+.footer a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+/* footer===================================== */
+
+
+.site-map a{
+    text-decoration: none;
+    color: white;
+}
+.site-map h1,.site-map h2{
+    color: #133380;
+    text-decoration: underline;
+}
+/* site map======================================= */
+.why-choose-us{
+    overflow:hidden;
+}
+.why-choose-us h1,.why-choose-us h5,.why-choose-us p{
+    color: #133380;
+}
+.why-choose-us .card{
+    border: none;
+    background-color: transparent;
+    padding: 40px; color: #e6e6e6;
+}
+/* why choose us cards======================================================= */
+
+.r-form{
+    overflow: hidden;
+}
+   .formcontrol {
+     display: block;
+     width: 100%;
+     padding: 0.5rem 0.75rem;
+     font-size: 1rem;
+     line-height: 1.25;
+     font-weight: bold;
+     color: #6C6262;
+     background-color: #fff;
+     background-image: none;
+     background-clip: padding-box;
+             background-clip: padding-box;
+     border: 1px solid rgba(0, 0, 0, 0.15);
+     border-radius: 0.25rem;
+   }
+
+   /* review form ========================================================================= */
+   .category{
+    overflow: hidden;
+   }
+   .category a{text-decoration: none;color: white;}
+   .cat1,.cat2,.cat3,.cat4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+margin: 20px;
+   }
+   .cat1:hover,.cat2:hover,.cat3:hover,.cat4:hover{
+    cursor: pointer;
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.rgba(0, 0, 0, 0.856),0.4)) */
+    transform: scale(1.1);
+    overflow: hidden;
+   }
+   .cat1 a:hover,.cat2 a:hover,.cat3 a:hover,.cat4 a:hover{
+    color: grey;
+   }
+   .cat1{
+    height: 35vh;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/cat1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   .cat2{
+    height: 35vh;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/cat2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   .cat3{
+    height: 35vh;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/cat3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   .cat4{
+    height: 35vh;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/cat4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+
+  /* category ========================================================= */
+
+  .about img:hover,.intro img:hover{
+    transform: skew(10deg);
+  }
+  /* ================================================= */
+  .contact{
+    background-image:linear-gradient(rgba(0,0,0, 0.4),rgba(0,0,0, 0.4)),url(images/bg2.jpeg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     /* color: blue; */
+     padding:5% 0%;
+     height: 80vh;
+  }
+ /* ======================================== */
+@media only screen and (max-width:395px){
+    .nav-item a{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0%;
+   margin: 0%;
+    }
+    .nav-item li{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0%;
+    }
+.navbar li{
+    padding-left: 0%;
+}  
+.navbar-brand{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainheading h1{
+    font-size:35px;
+}
+.mainheading{
+    padding: 20px;
+}
+.category{
+    padding: 0%;
+}
+.cat1,.cat2,.cat3,.cat4{
+ margin: 5px;       
+}
+/* .category h2{
+font-size: 30px;
+font-weight: 50;
+} */
+.footer{
+  padding:0%;
+}
+}
+@media only screen and (max-width:767px){ 
+    
+    .carousel-caption h5{
+        font-size: 20px;
+    }
+}

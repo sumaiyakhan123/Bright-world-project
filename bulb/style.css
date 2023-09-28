@@ -1,0 +1,143 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+        background-image:linear-gradient(to right,rgb(51, 111, 180),rgb(150, 214, 240));
+        color: #f1f1f1;
+       font-family: myfont;
+}
+@font-face {
+    font-family:myfont2;
+    src: url(Kanit-BlackItalic.ttf);
+}
+@font-face {
+    font-family:myfont;
+    src: url(Kanit-LightItalic.ttf);
+}
+h1,h2,h5{
+    font-family: myfont2;
+}
+.navbar li{
+    padding-left: 80px;
+}
+.navbar{
+    color: transparent;
+    box-shadow: 10px 10px 20px rgb(141, 141, 141);
+    background-color:rgb(255, 255, 255);
+
+}
+/* .nav-item li{
+    padding-left: 10px;
+   
+} */
+.nav-item li a{
+    font-weight: bold;
+}
+#top{
+    position: sticky;
+    top: 0%;
+   z-index: 1;
+}
+.dropbtn {
+  background-color:rgb(255, 255, 255);
+   font-weight: bold;
+    padding: 8px 0px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a{
+    color: rgb(17, 17, 17);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:rgb(88, 87, 87);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:rgb(255, 255, 255);}
+/* ============================================================ */
+.dropdown{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.led-heading{
+    background-image:linear-gradient(to right,rgb(0,0,0,0.4),rgba(0,0,0,0.4)),url(assets/bulb\,head.png);
+    background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hphilips{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 500;
+}
+.card-title{
+    color: darkblue;
+}
+.card:hover{
+    background-color: #838285;
+    color: aliceblue;
+}
+.add-to-cart{
+    background-color: rgb(6, 84, 252);
+    font-size: large;
+    font-weight: 500;
+}
+.add-to-cart:hover,.button:hover{
+    background-color: #838285;
+    color: aliceblue;
+    
+    
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.page-changer{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: large;
+    margin: 6px;
+    padding-top: 25px;
+    padding-left: 0px;
+}
+.page-changer:hover{
+    color: blue;
+}
+
+.para-led-bulb:hover{
+    color: blue;
+    
+    
+}
+.card{
+    color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+/* footer===================================== */
